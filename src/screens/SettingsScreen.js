@@ -5,7 +5,7 @@ import Header from '../components/Header';
 import Left from '../components/Left';
 import Icon from 'react-native-vector-icons/Ionicons';
 
-const HomeScreen = ({navigation}) => {
+const SettingsScreen = ({navigation}) => {
 
     return (
         <View style={styles.container}>
@@ -16,14 +16,14 @@ const HomeScreen = ({navigation}) => {
                     </TouchableWithoutFeedback>
                 </Left>
             </Header>
-            <View style={{flex: 1, alignItems: 'center', justifyContent: 'center'}}>
-                <Text>HomeScreen</Text>
+            <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
+                <Text>Settings Screen</Text>
             </View>
         </View>
     );
 }
 
-export default HomeScreen;
+export default SettingsScreen;
 
 const styles = StyleSheet.create({
     container: {
